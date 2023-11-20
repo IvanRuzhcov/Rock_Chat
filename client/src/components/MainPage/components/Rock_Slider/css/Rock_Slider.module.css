@@ -1,0 +1,104 @@
+.container {
+  padding: 180px 0 0 0;
+}
+.card_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.suda {
+  width: 40px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.tuda {
+  width: 40px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.cards {
+  display: flex;
+  margin: 0 40px 0 40px;
+}
+.rock_festival_card:not(:first-child) {
+  margin-left: 30px;
+}
+.rock_festival_card {
+  width: 350px;
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 30px 0px;
+  background: #2f2b2b;
+}
+.rock_festival_card img {
+  width: 350px;
+  height: 280px;
+  flex-shrink: 0;
+  border-radius: 30px 0px;
+}
+.card_text {
+  display: block;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 0 35px;
+}
+.text_sity {
+  color: var(--white, #fff);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.5;
+}
+.text_place {
+  color: var(--white, #fff);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 20px;
+}
+.futer_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_btn button {
+  width: 180px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 30px 0px;
+  background: var(--accent, #7a66cc);
+  box-shadow: none;
+  border: none;
+  margin-top: 30px;
+  color: var(--white, #fff);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.contsiner_card_data {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+}
+.card_data {
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  color: var(--white, #fff);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  opacity: 0.5;
+}

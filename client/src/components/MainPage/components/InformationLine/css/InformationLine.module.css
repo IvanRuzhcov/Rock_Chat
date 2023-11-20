@@ -1,0 +1,67 @@
+.markup {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+}
+.container {
+  background: #1c1b21;
+  height: 300px;
+}
+.box_info_1 {
+  width: 350px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 20px 0px;
+  margin-left: 30px;
+  transform: translateY(-50%);
+  background: url('../../../../../img/Rectangle_3.png'),
+    lightgray -16.13px 0px / 177.434% 100% no-repeat;
+  position: relative;
+}
+.box_info_2 {
+  width: 350px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 20px 0px;
+  margin-left: 30px;
+  transform: translateY(-50%);
+  background: url('../../../../../img/Rectangle_2.png'),
+    lightgray -16.13px 0px / 177.434% 100% no-repeat;
+  position: relative;
+}
+.box_info_3 {
+  width: 350px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 20px 0px;
+  margin-left: 30px;
+  transform: translateY(-50%);
+  background: url('../../../../../img/Rectangle_1.png'),
+    lightgray -16.13px 0px / 177.434% 100% no-repeat;
+  position: relative;
+}
+.text_field {
+  width: 350px;
+  height: 90px;
+  flex-shrink: 0;
+  border-radius: 20px 0px;
+  background: rgba(122, 102, 204, 0.7);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+}
+.text {
+   padding: 21px 20px 21px 20px;
+  text-align:left;
+  color:  #FFFFFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  white-space: pre-wrap;
+  display: block;
+}

@@ -50,7 +50,7 @@ body{
   margin-left: 20px;
 }
 
-.container_nav span {
+.container_nav .links {
   margin-left: 56px;
   color: #ffffff;
   font-family: Poppins;
@@ -58,7 +58,21 @@ body{
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  text-decoration: none;
 }
+.registr{
+  display: block;
+}
+.registr div{
+padding: 3px 0 3px 0 ;
+}
+.registr .lastLink{
+  border-top: 3px solid #ffffff;
+}
+.lastLink{
+  
+}
+
 .text_1 {
   margin-top: 322px;
   color: #ffffff;
